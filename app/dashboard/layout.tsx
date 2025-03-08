@@ -1,6 +1,7 @@
 import SideNav from "@/app/ui/dashboard/sidenav";
 
-export const experimental_ppr = true;
+// Partial Prerendering (=ppr)はNext.js 14 で導入された実験的な機能で、現時点で本番環境で使用することは推奨されていないため、コメントアウトしている
+// export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
